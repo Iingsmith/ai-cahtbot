@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 st.title("🐧 น้องออก้า นักดำน้ำรอบโลก พร้อมให้บริการค่ะ")
-st.subheader("Conversation")
+st.subheader("let's talk about underwater")
 # Capture Gemini API Key
 gemini_api_key = st.text_input("Gemini API Key: ", placeholder="Type your API Key here...", type="password")
 # Initialize the Gemini Model
